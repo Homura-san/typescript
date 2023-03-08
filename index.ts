@@ -1,7 +1,7 @@
-// Tratando a tag input
+// Generic types
 
-const input = document.getElementById('input') as HTMLInputElement;
-input.addEventListener('input', (event) => {
-    const i = event.currentTarget as HTMLInputElement;
-    console.log(i.value);
-});
+function adicionaApendiceALista<T>(array: T[], value: T){ // A letra 'T' é padrão pra tipos genéricos
+    return array.map(() => value)
+}
+
+adicionaApendiceALista([1, 2, 3], 1)
