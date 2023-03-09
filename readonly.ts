@@ -1,7 +1,7 @@
 interface Cachorro {
-    readonly nome: string,
-    readonly idade: number,
-    readonly parqueFavorito?: string
+    nome: string,
+    idade: number,
+    parqueFavorito?: string
 }
 
 type CachorroSomenteLeitura = {
