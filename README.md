@@ -1,3 +1,3 @@
 # TypeScript
 
-Meus estudos de typescript.
+Estudos de typescript a paritr do curso da DIO.
