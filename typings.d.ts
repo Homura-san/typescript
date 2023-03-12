@@ -1,3 +1,3 @@
-// interface JQuery {
-//     novaFuncao(): void;
-// }
+interface JQuery {
+    novaFuncao(): void;
+}

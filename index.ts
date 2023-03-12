@@ -1,15 +1,14 @@
-export const numero = 2;
+interface Pessoa {
+    nome: string,
+    idade: number,
+    nacionalidade: string
+}
 
+interface Brasileiro extends Omit<Pessoa, 'nacionalidade'> {
+    //
+}
 
-
-
-
-// import $ from 'jquery';
-
-// $.fn.extend({
-//     novaFuncao() {
-//         console.log('Chamou nova funcao')
-//     }
-// })
-
-// $('body').novaFuncao()
+const brasileiro: Brasileiro = {
+    nome: 'João Silva',
+    idade: 24
+}
